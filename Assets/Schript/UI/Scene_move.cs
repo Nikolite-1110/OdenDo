@@ -14,6 +14,7 @@ public class Scene_move : MonoBehaviour
 
     void Start()
     {
+        Application.targetFrameRate = 60;
         if(SceneManager.GetActiveScene().name == "Tutorial")
         {
             day = 0;
